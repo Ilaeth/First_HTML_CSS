@@ -14,11 +14,11 @@ Strona POLSKIE SUROWCE WTÓRNE SP. Z.O.O.
 Project made for mark.
 
 ## Technologies
+* Visual Studio Code 1.71.1
 * HTML
 * CSS
 
 ## Setup
-Run in Visual Studio Code.
 
 ## Features
 
