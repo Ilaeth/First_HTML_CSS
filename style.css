@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background: rgb(122,48,0);
+    background: radial-gradient(circle, rgba(122,48,0,1) 0%, rgba(165,233,148,1) 100%);
+}
+
+#wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgba(252, 252, 252, 0.575);
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+nav a {
+    display: block;
+    width: 25%;
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(165,233,148);
+    padding: 15px 30px;
+    font-size: 20px;
+    block-size: 65px;
+    transition: all 1s ease;
+}
+
+nav a:hover {
+    font-size: 22px;
+    background-color: brown;
+    cursor: pointer;
+}
+
+.active {
+    background-color: brown;
+}
+
+article {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 40px 20px;
+    height: 600px;
+}
+
+article h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 10% 20px 10%;
+    padding-bottom: 15px;
+    border-bottom: 3px solid brown;
+}
+
+article p {
+    text-align: justify;
+    line-height: 25px;
+    font-size: 25px;
+    padding: 15px 0 50px 0;
+}
+
+img.left {
+    float: left;
+    padding: 10px 10px 10px 0;
+    width: 50%;
+    border-radius: 50% 25%;
+}
+
+footer a {
+    float: right;
+    display: block;
+    width: 10%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 20px;
+    block-size: 65px;
+}
+
+h2 {
+    float: left;
+    display: block;
+    width: 25%;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    block-size: 65px;
+}
+
+@media (max-width: 1000px) {
+    nav a {
+        width: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    nav a {
+        width: 100%;
+    }
+    article {
+        height: 650px;
+    }
+}
+
+@media (max-width: 700px) {
+    article {
+        height: 800px;
+    }
+
+    aside {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        width: 300px;
+        height: 100vh;
+        font-size: 24px;
+        color: black;
+        background-color: #fff;
+        transition: .3s linear;
+    }
+
+    ul {
+        list-style-type: none;
+        margin-top: 20px;
+    }
+
+    .active {
+        left: 0;
+    }
+
+    button {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        margin: 0 30px;
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: 2px solid black;
+        color:black;
+        font-size: 36px;
+        transition: .3s linear;
+    }
+
+}
+
+
+
+

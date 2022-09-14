@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recykling</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5baddb5ee5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="shutterstock_667031947-881x588.jpg" alt="shutterstock_667031947-881x588 - header"/>
+        </header>
+        <nav>
+            
+            
+
+<aside>
+    <ul>
+            <a class="menu" href="index.html">Strona główna</a>
+            <a class="menu" href="index2.html">O nas</a>
+            <a class="menu" href="index3.html">Czym się zajmujemy</a>
+            <a class="menu active" href="index4.html">Kontakt</a>
+    </ul>
+</aside>
+<button><i class="fas fa-bars"></i></button>
+     
+<script>
+    const button = document.querySelector('button');
+    const menu = document.querySelector('aside')
+
+    function showMenu() {
+        menu.classList.toggle('active');
+
+        if (menu.classList.contains('active')) {
+            button.style.left = '300px'
+        } else {
+            button.style.left = 0;
+        }
+    }
+
+    button.addEventListener('click', showMenu)
+</script>
+        </nav>
+        <section>
+            <article>
+                <h1>SKONTAKTUJ SIĘ Z NAMI</h1>
+                <h2>Polskie Surowce Wtórne Sp. z o.o.</h2>
+                <p>ul. Foksal 18 ---- 00-372 Warszawa ---- email: biuro@repap.pl</p>
+                <h3>Surowce wtórne kupujemy na terenie całego kraju. Nasze oddziały:</h3>
+                <h2>Oddział Gdańsk</h2>
+                <p>ul. Śluza 2 ---- 80-770 Gdańsk ---- tel. 58 320 56 11</p>
+                <h2>Oddział Kwidzyn</h2>
+                <p>Krzykosy 2A ---- 82-520 Gardeja ---- tel. 55 275 04 08</p>
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=960&amp;height=125&amp;hl=en&amp;q=80-770 Gdańsk, ul. Śluza 2&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebayproxy.net/">piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:125px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:125px;}.gmap_iframe {height:125px!important;}</style></div>
+            </article>
+        </section>
+        <footer>
+            <a class="menu" href="index.html">Strona główna</a>
+            <a class="menu" href="index2.html">O nas</a>
+            <a class="menu" href="index3.html">Czym się zajmujemy</a>
+            <a class="menu" href="index4.html">Kontakt</a>
+    <h2>POLSKIE SUROWCE WTÓRNE
+        Sp. z o.o.</h2>
+    </footer>
+    </div>
+    
+</body>
+</html>

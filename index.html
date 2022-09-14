@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recykling</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5baddb5ee5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="shutterstock_667031947-881x588.jpg" alt="shutterstock_667031947-881x588 - header"/>
+        </header>
+        <nav>
+<aside>
+    <ul>
+            <a class="menu active" href="index.html">Strona główna</a>
+            <a class="menu" href="index2.html">O nas</a>
+            <a class="menu" href="index3.html">Czym się zajmujemy</a>
+            <a class="menu" href="index4.html">Kontakt</a>
+    </ul>
+</aside>
+
+<button><i class="fas fa-bars"></i></button>
+     
+<script>
+    const button = document.querySelector('button');
+    const menu = document.querySelector('aside')
+
+    function showMenu() {
+        menu.classList.toggle('active');
+
+        if (menu.classList.contains('active')) {
+            button.style.left = '300px'
+        } else {
+            button.style.left = 0;
+        }
+    }
+
+    button.addEventListener('click', showMenu)
+</script>
+        </nav>
+        <section>
+            <article>
+                <h1>POLSKIE SUROWCE WTÓRNE SP. Z O.O.</h1>
+                <p> <img class="left" src="GlobalRecyclingDay-2019.jpg" alt="GlobalRecyclingDay-2019"> Kompleksowe rozwiązania w zakresie gospodarki odpadami</p>
+                <p>Jesteśmy organizacją zajmującą się kompleksowymi rozwiązaniami w zakresie gospodarki odpadami zmierzającymi do odzysku jak największej ich ilości w celu ich powtórnego przetworzenia.</p>
+            </article>
+        </section>
+        <footer>
+                <a class="menu" href="index.html">Strona główna</a>
+                <a class="menu" href="index2.html">O nas</a>
+                <a class="menu" href="index3.html">Czym się zajmujemy</a>
+                <a class="menu" href="index4.html">Kontakt</a>
+        <h2>POLSKIE SUROWCE WTÓRNE
+            Sp. z o.o.</h2>
+        </footer>
+    </div>
+    
+</body>
+
+</html>
